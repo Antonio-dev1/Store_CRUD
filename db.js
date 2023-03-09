@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const dbURI = 'mongodb+srv://root:root@testcluster.ouvylfi.mongodb.net/store_DB?retryWrites=true&w=majority'
+const dbURI = ''
 
 mongoose.set('strictQuery', true)
 module.exports = () => {
